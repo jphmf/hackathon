@@ -31,7 +31,6 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		  
 		LoginButton loginButton = (LoginButton) findViewById(R.id.authButton);
 		  
         profilePictureView = (ProfilePictureView) findViewById(R.id.profilePicture);
